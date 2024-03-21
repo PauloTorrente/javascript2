@@ -23,3 +23,26 @@ if (mochila.length >= 10) {
 } else {
     console.log("Creo que no necesito una mochila")
 }
+
+
+let contarHasta10 = 0;
+
+while(contarHasta10 < 10){
+    contarHasta10++;
+}
+console.log(contarHasta10);
+
+let diaFestivo = true || false
+if (diaFestivo == true) {
+    console.log("hoy trabajo")
+}else if (diaFestivo == false){
+    console.log("Hoy no trabajo")
+}
+
+const araybucle = [4,5,6,7,8,9,10,11,12];
+let ys = 4;
+
+while (ys < araybucle.length) {
+       console.log( araybucle[ys]);
+       ys++;
+}
